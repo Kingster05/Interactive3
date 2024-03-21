@@ -1,0 +1,96 @@
+
+        html {
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            font-weight: bold;
+        }
+
+        header,
+        nav,
+        footer {
+            height: 30px;
+            line-height: 30px;
+            background-color: blue;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            border: black solid;
+        }
+
+        nav,
+        footer {
+            margin-top: 10px;
+        }
+
+        .rightdiv,
+        .maindiv {
+            margin-left: 10px;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .leftdiv,
+        .rightdiv,
+        .maindiv {
+            height: 85vh;
+            line-height: 85vh;
+            width: 100vw;
+            margin-top: 10px;
+            background-color: blueviolet;
+            color: black;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            border: black solid;
+        }
+
+        @media screen and (max-width: 640px) {
+            html {
+                text-align: center;
+                width: 100vw;
+                height: 100vh;
+                font-family: 'Arial Rounded MT Bold', sans-serif;
+                font-weight: bold;
+            }
+
+            header,
+            nav,
+            footer {
+                height: 30px;
+                line-height: 30px;
+                background-color: blue;
+                font-family: 'Arial Rounded MT Bold', sans-serif;
+            }
+
+            nav,
+            footer {
+                margin-top: 10px;
+            }
+
+            .container {
+                overflow: hidden;
+                flex-direction: column;
+            }
+
+            .rightdiv,
+            .maindiv {
+                margin: auto;
+                margin-top: 10px;
+                font-family: 'Arial Rounded MT Bold', sans-serif;
+        
+            }
+
+            .leftdiv,
+            .rightdiv,
+            .maindiv {
+                height: 28vh;
+                line-height: 28vh;
+                width: 100vw;
+                border: black solid;
+                background-color: blueviolet;
+                color: black;
+                font-family: 'Arial Rounded MT Bold', sans-serif;
+            }
+        }
