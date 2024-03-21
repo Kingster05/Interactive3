@@ -45,7 +45,7 @@
             font-family: 'Arial Rounded MT Bold', sans-serif;
             border: black solid;
         }
-
+        /*Small Edits*/
         @media screen and (max-width: 640px) {
             html {
                 text-align: center;
